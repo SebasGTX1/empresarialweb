@@ -42,21 +42,21 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'home' %} active {% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'home' %}">Inicio</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'home' %}">Home</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'about' %} active {% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'about' %}">Historia</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'about' %}">About us</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'services' %} active {% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'services' %}">Servicios</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'services' %}">Services</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'store' %} active {% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'store' %}">Visítanos</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'store' %}">Visit us</a>
             </li>
             <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'contact' %} active {% endif %}">
-              <a class="nav-link text-uppercase text-expanded" href="{% url 'contact' %}">Contacto</a>
+              <a class="nav-link text-uppercase text-expanded" href="{% url 'contact' %}">Contact</a>
             </li>
-            <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'blog' %} active {% endif %}">
+            <li class="nav-item px-lg-4 {% if request.resolver_match.view_name == 'blog' or request.resolver_match.view_name == 'category' %} active {% endif %}">
               <a class="nav-link text-uppercase text-expanded" href="{% url 'blog' %}">Blog</a>
             </li>
           </ul>
@@ -91,11 +91,11 @@
 	        </a>
 	    </p>
         <p class="m-0 mbt">
-        	<a href="sample.html" class="link">Política de privacidad</a> ·
-        	<a href="sample.html" class="link">Aviso legal</a> ·
+        	<a href="sample.html" class="link">Privacy Policy</a> ·
+        	<a href="sample.html" class="link">Legal warning</a> ·
         	<a href="sample.html" class="link">Cookies</a>
 		</p>
-        <p class="m-0 mbt1">&copy; La Caffettiera 2018</p>
+        <p class="m-0 mbt1">&copy; La Caffettiera 2023</p>
       </div>
 	</footer>
 
