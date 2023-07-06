@@ -97,9 +97,9 @@
           {% endif %}
 	    </p>
         <p class="m-0 mbt">
-        	<a href="sample.html" class="link">Privacy Policy</a> ·
-        	<a href="sample.html" class="link">Legal warning</a> ·
-        	<a href="sample.html" class="link">Cookies</a>
+        	<a href="{% url 'page' PAGE_PRIVACY %}" class="link">Privacy policy</a> ·
+        	<a href="{% url 'page' PAGE_LEGAL %}" class="link">Legal warning</a> ·
+        	<a href="{% url 'page' PAGE_COOKIES %}" class="link">Cookies</a>
 		</p>
         <p class="m-0 mbt1">&copy; La Caffettiera 2023</p>
       </div>
