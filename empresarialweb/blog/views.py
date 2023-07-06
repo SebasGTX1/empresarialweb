@@ -9,5 +9,5 @@ def blog(request):
 
 def category(request, category_id):
     category = get_object_or_404(Category, id=category_id)
-    posts = Post.objects.filter(categories=category)
-    return render(request, "blog/category.html", context={'category': category, 'posts': posts})
+    # posts = Post.objects.filter(categories=category)
+    return render(request, "blog/category.html", context={'category': category})
