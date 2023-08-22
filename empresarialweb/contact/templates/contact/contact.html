@@ -41,9 +41,13 @@
                   </div>
               </form> {% endcomment %}
               <!-- Fin formulario de contacto -->
+            <form action='' method='POST'>
+              {% csrf_token %}
               <table>
               {{form.as_table}}
               </table>
+              <input type='submit' value='Send'/>
+            </form>
             </div>
           </div>
         </div>
