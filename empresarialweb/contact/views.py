@@ -14,7 +14,7 @@ def contact(request):
             # Send email and redirect
             email = EmailMessage(
                 'La Caffetiera: New contact message',
-                'From {} <{}>\n\n'.format(name,email,content),
+                'From {} <{}>\n{}\n'.format(name,email,content),
                 'no-reply@inbox.mailtrap.io',
                 ['sebas-0202@hotmail.es'],
                 reply_to=[email]
