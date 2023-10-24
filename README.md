@@ -18,7 +18,12 @@ git clone https://github.com/sebasgtx1/empresarialweb.git
 
 1. Ensure that you're in the appropriate Python virtual environment (if you're using one).
 
-2. Install the dependencies from the `requirements.txt` file using `pip`. Run the following command:
+2. Access to the repository folder. Run the following command:
+   ```shell
+   cd empresarialweb/
+   ```
+
+3. Install the dependencies from the `requirements.txt` file using `pip`. Run the following command:
 
    ```shell
    pip install -r requirements.txt
@@ -26,10 +31,10 @@ git clone https://github.com/sebasgtx1/empresarialweb.git
 
 **Step 3: Access the Project Folder**
 
-1. Access the project folder where the `manage.py` file is located. The path will be similar to the following:
+1. Access the project folder where the `manage.py` file is located. Run the following command:
 
    ```shell
-   path_where_repository_was_cloned/empresarialweb/empresarialweb/
+   cd empresarialweb/
    ```
 
 **Step 4: Perform Migrations**
