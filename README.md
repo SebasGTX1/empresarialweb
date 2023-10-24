@@ -62,5 +62,7 @@ git clone https://github.com/sebasgtx1/empresarialweb.git
 - `EMAIL_HOST_USER = 'your_hotmail@example.com'`
 - `EMAIL_HOST_PASSWORD = 'your_password'`
 
+You can find these properties in the `empresarialweb/settings.py` file 
+
 
 
