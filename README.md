@@ -12,8 +12,9 @@ To clone the repository from the `develop` branch, you can use the `git clone` c
 
 ```shell
 git clone https://github.com/sebasgtx1/empresarialweb.git
+```
 
-**Step 1: Install Dependencies**
+**Step 2: Install Dependencies**
 
 1. Ensure that you're in the appropriate Python virtual environment (if you're using one).
 
@@ -21,28 +22,31 @@ git clone https://github.com/sebasgtx1/empresarialweb.git
 
    ```shell
    pip install -r requirements.txt
+   ```
 
-
-**Step 2: Access the Project Folder**
+**Step 3: Access the Project Folder**
 
 1. Access the project folder where the `manage.py` file is located. The path will be similar to the following:
 
    ```shell
    path_where_repository_was_cloned/empresarialweb/empresarialweb/
+   ```
 
-**Step 3: Perform Migrations**
+**Step 4: Perform Migrations**
 
 1. To apply initial migrations and set up the database, run the following commands:
 
    ```shell
    python manage.py makemigrations
    python manage.py migrate
+   ```
 
-**Step 4: Launch the Project**
+**Step 5: Launch the Project**
 
 1. Finally, start the project by running the following command:
 
    ```shell
    python manage.py runserver
+   ```
 
 
