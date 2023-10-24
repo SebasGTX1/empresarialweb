@@ -1,3 +1,8 @@
+**Test User for Admin Panel (/admin):**
+
+- **User:** test
+- **Password:** PWD0227**
+
 ## Getting Your Project Up and Running
 
 **Requirements:**
