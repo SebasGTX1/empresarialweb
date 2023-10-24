@@ -56,4 +56,11 @@ git clone https://github.com/sebasgtx1/empresarialweb.git
    python manage.py runserver
    ```
 
+**Note:** Please configure the `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` components with a Hotmail account for email sending; otherwise, this functionality will not work.
+
+**Example:**
+- `EMAIL_HOST_USER = 'your_hotmail@example.com'`
+- `EMAIL_HOST_PASSWORD = 'your_password'`
+
+
 

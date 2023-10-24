@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!8r4tyg*@-j-tos#w(epfsw0rsbc_&*qotslzog-+jzcy6plyn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -152,7 +152,8 @@ CKEDITOR_CONFIGS = {
     }
 }
 
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-EMAIL_HOST_USER = '1709cc07168a72'
-EMAIL_HOST_PASSWORD = '78c29a87afb790'
-EMAIL_PORT = '2525'
+EMAIL_HOST = 'smtp.office365.com'
+EMAIL_PORT = 587 
+EMAIL_USE_TLS = True  
+EMAIL_HOST_USER = 'your_email@example.com'  
+EMAIL_HOST_PASSWORD = 'your_password'
